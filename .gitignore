@@ -1,0 +1,13 @@
+# Google Apps Script files
+*.js
+appsscript.json
+
+# Clasp configuration
+.clasp.json
+
+# Ignore node_modules if they exist (though not currently seen)
+node_modules/
+dist/
+
+# System files
+.DS_Store
