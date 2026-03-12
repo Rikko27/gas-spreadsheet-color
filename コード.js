@@ -26,8 +26,8 @@ function colorCellsByPerformance() {
 
     // 条件判定: 送信数 >= 100 且つ 開封数 >= 10 且つ 開封率 >= 5% (0.05)
     if (sent >= 100 && openCount >= 10 && openRate >= 0.05) {
-      // 条件を満たす場合、名前のセルを赤色にする
-      sheet.getRange(i + 1, nameIdx + 1).setBackground("#ff0000");
+      // 条件を満たす場合、名前のセルを青色にする
+      sheet.getRange(i + 1, nameIdx + 1).setBackground("#4a90e2");
     } else {
       // 条件を満たさない場合は背景色をリセット（必要に応じて）
       sheet.getRange(i + 1, nameIdx + 1).setBackground(null);
