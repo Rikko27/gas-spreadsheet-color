@@ -1,9 +1,9 @@
 # Google Apps Script files
-*.js
-appsscript.json
+# *.js
+# appsscript.json
 
 # Clasp configuration
-.clasp.json
+# .clasp.json
 
 # Ignore node_modules if they exist (though not currently seen)
 node_modules/
